@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Show {{ $video->title }} </title>
+	<title> Playing {{ $video->title }} </title>
 </head>
 <body>
 	<h2> <a href="{{ route('list') }}"> Go Back </a> </h2>
